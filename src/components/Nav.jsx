@@ -4,12 +4,11 @@ const Nav = () => {
 
 
     return(
-<div>
-    <h1>Sarah Duperoux</h1>
+<div className="nav">
+    <h4>Sarah Duperoux</h4>
     <Link to='/'>Home</Link>
     <Link to='/projects'>Projects</Link>
     <Link to='/about-me'>About Me</Link>
-    <Link to='/contact-me'>Contact Me</Link>
 </div>
     )
 }

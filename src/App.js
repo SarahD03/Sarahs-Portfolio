@@ -4,19 +4,23 @@ import Nav from './components/Nav'
 import Home from './pages/Home'
 import AboutMe from './pages/AboutMe'
 import ProjectsPage from './pages/ProjectsPage'
-import ContactMe from './pages/ContactMe'
 
 function App() {
   return (
     <div className="App">
-      <header>
+      <div>
         <Nav />
-      </header>
+      </div>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/projects" element={<ProjectsPage />}></Route>
         <Route path="/about-me" element={<AboutMe />}></Route>
-        <Route path="/contact-me" element={<ContactMe />}></Route>
+        {/* <a href="https://you-buyapp.herokuapp.com/" target="_blank"></a>
+        <a href="https://thrill-rides.herokuapp.com/" target="_blank"></a>
+        <a
+          href="https://anime-revival-frontend.herokuapp.com/"
+          target="_blank"
+        ></a> */}
       </Routes>
     </div>
   )
