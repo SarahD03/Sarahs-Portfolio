@@ -1,10 +1,11 @@
 const AboutMe = () => {
   return (
-    <div>
+    <div className="about">
       <h2>A Little About Me...</h2>
       <h2>Software Developer</h2>
       <h3>New York City</h3>
-      <div className="blob">
+      <hr className="page-break"></hr>
+      <div>
         <p>
           {' '}
           I am a software developer who's core values are growth and
