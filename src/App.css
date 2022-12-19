@@ -53,16 +53,20 @@ h5 {
   font-size: large;
   font-style: oblique ;
 }
-.stock-img :hover{
+/* .stock-img :hover{
   box-shadow: #282c34 1px 1px 9px 6px ;
   
-}
+} */
 
 .home {
   font-size: 50px;
   font-family: 'Andale Mono';
   text-shadow: rgb(250, 69, 129) 1px 2px 3px ;
   padding-bottom: 20px;
+}
+.home h3 {
+  font-size: larger;
+  text-decoration: underline;
 }
 
 .page-break {
@@ -78,14 +82,14 @@ color: white
 .about {
   word-spacing: 3px;
   font-size: 32px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   max-width:fit-content;
   margin-right: 70px;
   margin-left: 70px;
   padding-bottom: 50px;
   line-height: 45px;
   font-family: 'Andale Mono';
-  text-shadow: rgb(250, 69, 129) 1px 2px 3px ;
+  text-shadow: rgb(250, 69, 129) 1px 1px 1px ;
 
 }
 
