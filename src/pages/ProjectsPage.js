@@ -4,7 +4,7 @@ const ProjectsPage = () => {
   let navigate = useNavigate()
   return (
     <div>
-      <h1>Portfolio Projects</h1>
+      <h1 className="home">Portfolio Projects</h1>
       <div className="stock-img">
         <img
           style={{

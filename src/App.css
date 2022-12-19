@@ -77,11 +77,11 @@ color: white
 
 .about {
   word-spacing: 3px;
-  font-size: 35px;
+  font-size: 32px;
   letter-spacing: 2px;
   max-width:fit-content;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 70px;
+  margin-left: 70px;
   padding-bottom: 50px;
   line-height: 45px;
   font-family: 'Andale Mono';
