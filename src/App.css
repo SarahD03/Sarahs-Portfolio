@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+background-color: #e8ebf0;
+  
 }
 
 .App-header {
@@ -18,8 +20,8 @@
 }
 
 .nav {
-border-bottom: #ffc3ed solid;
-box-shadow: rgb(238, 200, 200) 1px 5px 6px;
+border-bottom: #fbb0e4 solid;
+box-shadow: rgb(250, 69, 129) 1px 3px 15px 3px;
 padding-bottom: 40px;
 margin-bottom: 40px;
 background-color: rgb(255, 194, 214);
@@ -54,4 +56,33 @@ h5 {
 .stock-img :hover{
   box-shadow: #282c34 1px 1px 9px 6px ;
   
+}
+
+.home {
+  font-size: 50px;
+  font-family: 'Andale Mono';
+  text-shadow: rgb(250, 69, 129) 1px 2px 3px ;
+  color: white;
+}
+
+.page-break {
+  height: 1px;
+  width: 50%;
+  margin-top: -40px;
+  border: 1px solid #070707;
+}
+.blob {
+  word-spacing: 3px;
+  font-size: 35px;
+display: block;
+  width: 680px;
+
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  padding-bottom: 50px;
+  margin-left: 575px;
+  text-shadow: pink 2px 2px 5px ;
+}
+.blob p {
+  text-align: center;
 }
