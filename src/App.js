@@ -4,6 +4,7 @@ import Nav from './components/Nav'
 import Home from './pages/Home'
 import AboutMe from './pages/AboutMe'
 import ProjectsPage from './pages/ProjectsPage'
+import Contact from './pages/Contact'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           href="https://anime-revival-frontend.herokuapp.com/"
           target="_blank"
         ></a> */}
+        <Route path="/contact" element={<Contact />}></Route>
       </Routes>
     </div>
   )
